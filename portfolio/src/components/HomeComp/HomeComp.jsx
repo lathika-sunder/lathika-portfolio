@@ -14,7 +14,7 @@ const HomeComp = () => {
         <h1>Software <span style={{color:"#78a2c0"}}>Developer</span></h1>
      
         <br />
-        <blockquote class="otro-blockquote">
+        <blockquote className="otro-blockquote">
           Creativity is just connecting things. 
           {/* <span>Steve Jobs</span> */}
         </blockquote>

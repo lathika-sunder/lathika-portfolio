@@ -10,6 +10,8 @@ import './App.css';
 import Design from './components/DesignComp';
 import HomeComp from './components/HomeComp/HomeComp';
 import ProjectComp from './components/ProjectComp/ProjectComp';
+import SkillsComp from './components/SkillsComp/SkillsComp';
+import ContactComp from './components/ContactMeComp/ContactComp';
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
     <Design/>
     <ExperienceComp/>
     <ProjectComp/>
+    <SkillsComp/>
+    <ContactComp/>
     </>
     )
  
