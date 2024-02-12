@@ -31,6 +31,7 @@
 }
 .menubar-icon {
   display: none;
+  
 }
 @media only screen and (max-width: 768px) {
     .header-container{
@@ -40,15 +41,18 @@
     display: none;
   }
   .menubar-icon {
-    
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
     display: flex;
-    font-size: large;
+    /* font-size: large; */
     margin: 5vh;
     height: 6vh;
     width: 6vh;
     align-items: center;
     border-radius: 50%;
-    align-items: center;
+    justify-content: center;
   }
   .responsive-navbar {
     display: flex;
