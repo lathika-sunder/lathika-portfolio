@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 8vh 8vh 8vh;
+  justify-content: space-around;
   align-items: center;
 }
 .card {
@@ -44,15 +44,14 @@
 
 
 @media only screen and (max-width: 768px) {
-    .card{
-        margin-left: 0vh;
-        padding: 2vh;
-    }
+    
     .card img{
       height: 22vh;
       width: 36vh;
     }
     .card-grid{
-      padding-left: 1vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 }

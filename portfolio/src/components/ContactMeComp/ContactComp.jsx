@@ -5,11 +5,13 @@ import { SiGeeksforgeeks, SiGithub, SiGmail, SiHackerrank, SiLeetcode, SiLinkedi
 const ContactComp = () => {
   return (
     <div className="contact-container">
+    
       <div className="hire-container">
         <div className="title-ad">
         <h2>
           Wanna <span>Hire me?</span>
         </h2>
+        
         </div>
         <div className="buttons">
           <button className="btn">
@@ -23,8 +25,11 @@ const ContactComp = () => {
         </div>
       </div>
       <div className="contact-me">
-        <div className="">
+      
+        <div className="tech-icons">
+        <h2 className="otro-blockquote" style={{border:"0"}}>My coding profiles</h2>
           <a href="" ><SiLeetcode className="tech-icon"/></a>
+
           <a href=""><SiLinkedin  className="tech-icon"/></a>
           <a href=""><SiGithub  className="tech-icon"/></a>
           <a href=""><SiHackerrank className="tech-icon"/></a>

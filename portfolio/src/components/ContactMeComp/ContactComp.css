@@ -1,6 +1,6 @@
 .hire-container .btn{
     margin: 2vh;
-    width: 45vh;
+    width: 43vh;
     cursor: pointer;
     padding: 3vh;
     color: rgb(179, 226, 245);
@@ -20,12 +20,13 @@
     
 }
 .hire-container h2{
-    font-size:10vh
+    font-size:7.3vh
 
 }
 
 .hire-container h2 span{
-    color:#78a2c0
+    color:#78a2c0;
+    text-decoration:underline ;
 }
 .title-ad{
     text-align: center;
@@ -42,10 +43,11 @@
 .contact-me .tech-icon{
     margin: 2vh;
     cursor: pointer;
-    padding: 3vh;
+    padding:1vh;
     color: rgb(255, 255, 255);
     justify-content: space-between;
-    font-size: 3vh;
+    font-size: 2vh;
+
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.75);
@@ -76,6 +78,19 @@ footer{
         
         font-size: 90%;
     }
+    .contact-me{
+        justify-content: center;
+        align-items: center;
+    }
+    .tech-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 50%;
+    }
+    
     
 
 }
