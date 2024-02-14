@@ -17,7 +17,6 @@ const HeaderComp = () => {
       <h1 className="title">Lathika Sunder</h1>
 
         <nav className="navbar"  style={{ display: showResponsiveNav ? "none" : "" }}>
-          <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#project">Project</a>

@@ -1,6 +1,12 @@
 import React from 'react';
 import './ProjectComp.css';
-import pp1 from '../../assets/images/pp-1.png';
+
+import pp3 from '../../images/pp-3.jpg';
+import pp2 from '../../images/pp-2.jpg';
+import pp4 from '../../images/pp-4.jpg';
+import pp5 from '../../images/pp-5.jpg';
+import pp6 from '../../images/pp-6.jpg';
+import pp7 from '../../images/pp-7.jpg';
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const ProjectComp = () => {
@@ -9,7 +15,7 @@ const ProjectComp = () => {
         <h1>Projects</h1>
         <div className='card-grid'>
             <div className='card'>
-                <img src={pp1} alt='Nila CRM' />
+                <img src={pp3} alt='Nila CRM' />
                 <a href='#' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>Nila CRM</h3>
@@ -18,7 +24,7 @@ const ProjectComp = () => {
             </div>
 
             <div className='card'>
-                <img src={pp1} alt='MGR E-Commerce' />
+                <img src={pp5} alt='MGR E-Commerce' />
                 <a href='#' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>MGR E-Commerce</h3>
@@ -27,7 +33,7 @@ const ProjectComp = () => {
             </div>
 
             <div className='card'>
-                <img src={pp1} alt='User Management System' />
+                <img src={pp4} alt='User Management System' />
                 <a href='#' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>User Management System</h3>
@@ -36,7 +42,7 @@ const ProjectComp = () => {
             </div>
 
             <div className='card'>
-                <img src={pp1} alt='React Flow Family Tree' />
+                <img src={pp2} alt='React Flow Family Tree' />
                 <a href='#' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>React Flow Family Tree</h3>
@@ -45,7 +51,7 @@ const ProjectComp = () => {
             </div>
 
             <div className='card'>
-                <img src={pp1} alt='Notes Application' />
+                <img src={pp7} alt='Notes Application' />
                 <a href='#' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>Notes Application</h3>
@@ -54,7 +60,7 @@ const ProjectComp = () => {
             </div>
 
             <div className='card'>
-                <img src={pp1} alt='Weather App' />
+                <img src={pp6} alt='Weather App' />
                 <a href='#' target="_blank"><button><FaExternalLinkAlt /></button></a>
                 <div className='content'>
                     <h3>Weather App</h3>

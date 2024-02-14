@@ -4,7 +4,7 @@ import "./ContactComp.css";
 import { SiGeeksforgeeks, SiGithub, SiGmail, SiHackerrank, SiLeetcode, SiLinkedin, SiMailchimp } from 'react-icons/si'
 const ContactComp = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
     
       <div className="hire-container">
         <div className="title-ad">
