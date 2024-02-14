@@ -5,6 +5,18 @@ import "./HomeComp.css";
 import { IoIosCheckbox, IoMdDownload } from "react-icons/io";
 
 const HomeComp = () => {
+
+  const handleDownload=()=>{
+    const resume= window.location.origin + '/Lathika-Sunder-Resume.pdf';
+
+    const link=document.createElement("a");
+    link.href=resume;
+    link.download="Lathika Sunder Resume"
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link)
+
+  }
   return (
     <div className="home-container" id="about">
       <div className="profile-image">
@@ -27,14 +39,19 @@ const HomeComp = () => {
           
         </p>
         <div className="buttons">
-          <button className="btn">
+          <button className="btn" onClick={handleDownload}>
             Download my Resume
             <IoMdDownload style={{ paddingLeft: "3vh" }} />
           </button>
-          <button className="btn">
+          
+          <a
+            href="mailto:lathikasunder11@gmail.com?subject=Interested%20to%20hire%20you&body=Hello%20Lathika,%0D%0AI%20am%20interested%20to%20hire%20you..."
+            target="_blank"
+          ><button className="btn">
+            
             Hire Me Now!
             <IoIosCheckbox style={{ paddingLeft: "3vh" }} />
-          </button>
+          </button></a>
         </div>
       </div>
       <hr />
